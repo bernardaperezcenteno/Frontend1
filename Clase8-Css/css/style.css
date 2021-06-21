@@ -1,0 +1,82 @@
+
+header.index {
+    background-image: url('fondo.jpg');
+    height: 400px;
+        text-align: center;
+        background-position: center center;
+        background-size: cover;
+    
+}
+.sobremi{
+    color: #eccfb6;
+    font-size: 30px; 
+    font-family: 'Noto Sans JP', sans-serif; 
+}
+h1{
+    font-family: 'Noto Sans JP', sans-serif;
+    padding: 10px;
+    color: #eccfb6;
+    font-size: 35px;
+    text-align: center;
+}
+
+h2, h3{ 
+    text-align: center;
+    padding-left: 1cm;
+    height: 1cm;
+    color: #eccfb6;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+h1, h2, h3{
+    background-color: #5283be;
+    width: 1600px;
+}
+
+.años{
+    font-weight: bold;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 25px;
+}
+.fecha{
+    font-weight: bold;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.alinea{padding-left: 4%;}
+
+li, span{
+    font-size: 20px;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #5283be;
+}
+a{
+    color: #eccfb6;
+}
+
+footer{
+    text-align: center;
+    color: #eccfb6;
+    background-color: #5283be;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 30px;
+}
+
+i{
+    color: #eccfb6;
+}
+
+
+body.sobremi{
+    background-image: url(fondo.jpg);
+    background-size: 130%;
+}
+.CurriculumVitae, p{
+    text-align: center;
+    color: #eccfb6;
+    background-color: #5283be;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 30px;
+    
+}
