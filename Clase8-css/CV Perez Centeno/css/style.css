@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Staatliches&family=Varela+Round&display=swap');
 
 header {
     background-image: url('fondo.jpg');
@@ -13,6 +12,7 @@ header {
     font-size: 30px;  
 }
 h1{
+    font-family: 'Teko', sans-serif;
     padding: 10px;
     color: #eccfb6;
     font-size: 35px;
