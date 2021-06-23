@@ -1,13 +1,15 @@
 
 header.index {
-    background-image: url('fondo.jpg');
-    height: 400px;
+    background-color: #5283be );
+    height: 250px;
         text-align: center;
         background-position: center center;
         background-size: cover;
     
 }
 .sobremi{
+    background-color: #5283be;
+    background-size: cover;
     color: #eccfb6;
     font-size: 30px; 
     font-family: 'Noto Sans JP', sans-serif; 
