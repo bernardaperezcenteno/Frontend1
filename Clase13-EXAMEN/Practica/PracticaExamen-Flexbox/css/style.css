@@ -1,0 +1,33 @@
+
+.cajas {
+    padding: absolute;
+    padding: 50px 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.caja1 {
+    background-color: yellow;
+    font-size: 50px;
+    font-style: italic;
+    border-style: dotted;
+    color: red;
+    display: flex;
+}
+
+.caja2{
+    background-color: blue;
+    font-size: 50px;
+    font-style: bold;
+    border-style: dotted;
+    color: #fff;
+}
+
+.caja3 {
+    background-color: red;
+    font-size: 50px;
+    font-style: normal;
+    border-style: dotted;
+    color: rgba(0, 250, 0, 50);
+}

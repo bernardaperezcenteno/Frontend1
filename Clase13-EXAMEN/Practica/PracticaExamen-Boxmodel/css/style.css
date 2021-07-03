@@ -1,0 +1,21 @@
+.caja1 {
+    font-size: 40px;
+    position: absolute;
+    top: 50px;
+
+    z-index: 4;
+}
+
+.caja2 {
+    font-size: 40px;
+    position: relative;
+    top: 75px;
+    left: 40px;
+    z-index: 5;
+}
+
+.caja3 {
+    font-size: 40px;
+    position: relative;
+    top: 20px;
+}
