@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600&display=swap');
+
+/*header*/
+
+.descuento{
+    background-color: #1CD1B0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    height: 30px;
+    padding-left: 1.5rem;
+}
+
+.tienda{
+    background-color: #00669F;
+    height: 80px;
+}
+
+span{  
+    position: absolute;
+    padding-left: 40px;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 25px;
+}
+
+/*main*/
+
+main{
+    width: 100vw;
+}
+
+.container{
+    width: 40%;
+    margin: 1% auto;
+    margin-top: 15%;
+}
+
+input{
+    width: 70%;
+    height: 50px;
+    font-size: 20px;
+    padding-left: 2%;
+}
+h1{
+    font-family: 'Inter', sans-serif;
+    font-size: 72px;
+    font-weight: bold;
+    color: #333333;
+}
+.resetear{
+    background-color: #888888;
+    border-radius: 23px;
+    border: none;
+    width: 36%;
+    height: 50px;
+    font-size: 24px;
+    font-family: 'karla' , sans-serif;
+    margin: 5% 0 5% 0;
+}
+.registrar{
+    background-color: #1CD1B0;
+    border-radius: 23px;
+    border: none;
+    width: 36%;
+    height: 50px;
+    font-size: 24px;
+    align-items: center;
+    font-family: 'karla' , sans-serif;
+    margin: 5% 0 5% 0;
+}
+
+a{
+    font-family: 'Karla', sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 28px;
+    text-decoration: none;
+}   
+/*footer*/
+
+footer{
+    position: relative;
+    background-color: #00669F;
+    font-size: 20px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    height: 61px;
+    top: 320px;
+}
