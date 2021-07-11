@@ -37,7 +37,7 @@
             <form action="">
                 <section class="izquierda">
                     <div class="Nombre">
-                        <label for="Nombre">Nombre</label>
+                        <label for="Nombre">*Nombre</label>
                         <input type="text" name="Nombre" id="Nombre">
                     </div>
                     <div class="Fecha">
@@ -49,34 +49,36 @@
                     </div>
                 </section>
                 <section class="derecha">
-                    <div class="Especie">
-                        <label for="Especie">Especie</label>
-                        <select name="Especie" id="especie" placeholder="Especie">
-                            <option value="Especie">Marvel</option>
-                            <option value="Especie">DC</option>
+                    <div class="especie">
+                        <label for="especie">*Especie</label>
+                        <select name="especie" id="especie">
+                            <option value="especie">Marvel</option>
+                            <option value="especie">DC</option>
                         </select>
                     </div>
-                    <div class="Foto">
-                        <label for="Foto">Agregar Foto</label>
+                    <div class="foto">
+                        <label for="foto">Agregar Foto</label>
                         <input type="file" name="archivo">
                     </div>
+                    <div class="poderes">
+                        <label for="checkbox">Poderesx
+                            <br>
+                            <input type="checkbox" name="Poderes" value="Volar" checked>Volar
+                            <br>
+                            <input type="checkbox" name="Poderes" value="Superinteligencia">Superinteligencia
+                            <br>
+                            <input type="checkbox" name="Poderes" value="Vista de rayo laser">Vista de Rayo Laser
+                            <br>
+                            <input type="checkbox" name="Poderes" value="Billetera gorda">Billetera gorda
+                        </label>
+                    </div>
                     <div>
-                        <label for="">Poderes</label>
-                        <input type="checkbox" name="Volar">
-                        <label for="Volar">Volar</label>
-                        <input type="checkbox" name="Volar">
-                        <label for="Volar">Superinteligencia</label>
-                        <input type="checkbox" name="Volar">
-                        <label for="Volar">Vista de rayo láser</label>
-                        <input type="checkbox" name="Volar">
-                        <label for="Volar">Billetera gorda</label>
-                    </div>    
-                    <div>
-                        <label for="">Tipo de personaje</label>
-                        <input type="radio" name="Héroe / Heroina" id="Heroe">
-                        <label for="Heroe">Héroe / Heroina</label>
-                        <input type="radio" name="Héroe / Heroina" id="Heroe">
-                        <label for="Villano">Villano / Villana</label>
+                        <label for="personajes">Tipo de personaje</label>
+                        <br>
+                        <input type="radio" name="Héroe / Heroina" id="Heroe">Héroe / Heroina
+                        <br>
+                        <input type="radio" name="Villano / Villana" id="Villana">Villano / Villana
+                        </label>
                 </section>
             </form>        
         </div>

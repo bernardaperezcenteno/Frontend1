@@ -27,6 +27,7 @@ span{
     font-family: 'Roboto', sans-serif;
     margin-top: 25px;
 }
+
 .nav {
     background-color: #001D2D;
     color: #FFFFFF;
@@ -55,7 +56,6 @@ h2 {
     justify-content: center;
     font-family: Inter;
     font-size: 40px;
-    font-style: normal;
     font-weight: 700;
     line-height: 72px;
     letter-spacing: 0em;
@@ -77,7 +77,7 @@ form {
     font-size: 20px;
     font-family: Inter;
     font-weight: 300;
-    line-height: 24px;
+    line-height: 10px;
     letter-spacing: 0em;
 }
 
@@ -94,7 +94,8 @@ form {
     flex-direction: column;
     justify-content:right;
     align-content: center;
-    margin-right: 70px;
+    margin-left: 30px;  
+    
 }
 
 select {
@@ -108,16 +109,17 @@ select {
 input {
     margin: 5% auto;
     border-radius: 30px;
-    font-size: 20px;
     font-family: Inter;
     font-weight: 300;
-    line-height: 24px;
+    line-height: 20px;
     letter-spacing: 0em;
+
 }
 
 #Nombre, #Fecha {
     height: 63px;
-    width: 342px;   
+    width: 342px; 
+    font-size: 13px;  
 }
 
 #descripcion {
@@ -133,8 +135,9 @@ input {
 
 #especie {
     font-size: 20px;
+    font-family: Inter;
+    margin-top: 20px;
 }
-
 button {
     background-color: #1CD1B0;
     border-radius: 23px;
@@ -142,15 +145,15 @@ button {
     height: 70px;
     display: flex;
     justify-content: center;
+    align-items: center;
     color: #000000;
     font-family: Inter;
     font-size: 40px;
     font-weight: 700;
-    line-height: 44px;
     letter-spacing: 0em;
-    margin-bottom: 10px;
-    margin-left: 120px;
+    margin: 30px 120px;
 }
+
 
 /*footer*/
 
@@ -164,4 +167,17 @@ footer{
     font-family: 'Roboto';
     height: 61px;
     top: 10px;
+}
+
+/*pseudoselectores*/
+input:hover {
+    background-color:mediumaquamarine;
+}
+
+input:disabled {
+    background-color: gray;
+    
+}
+textarea:hover {
+    background-color:mediumaquamarine;
 }
