@@ -40,6 +40,11 @@ header {
     font-size: 20px;
     height: 60px; 
 }
+.gato {
+    display: flex;
+    justify-content: right;
+}
+
 h2 {
     font-weight: bold;
     font-size: 20px;
@@ -260,6 +265,14 @@ button {
     color: #FFFFFF;
 }
 
+/*pseudo selectores*/
+
+.menu li::before {
+    content: url(../img/pawprint.png);
+
+}
+
+
 /* responsive */
 @media screen and (max-width: 480px){
     .menu {
@@ -288,20 +301,20 @@ button {
     }
 }
 
-@media screen and (max-width: 480px) and (orientation:portrait) {
-    .menu nav{
-        display: none;
-    }
-
-    .cajas {
+@media screen and (min-width: 481px) and (max-width:768px) {
+    .menu {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        justify-content: space-evenly;
+    }
+    .cajas {
+        display: block;
     }
     .petbowl {
         background-image: url(../img/bowl.png);
-        display: flex;
-        justify-content: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 480px;
     }
     .footer-uno {
         display: flex;

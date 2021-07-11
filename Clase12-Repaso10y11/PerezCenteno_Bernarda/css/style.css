@@ -36,10 +36,7 @@
     font-size: 20px;
     height: 60px; 
 }
-.gato {
-    display: flex;
-    justify-content: right;
-}
+
 
 h2 {
     font-weight: bold;
@@ -186,7 +183,6 @@ h2 {
 /*footer*/
 
 footer {
-    display: block;
     margin-top: 20px;
 }
 .footer-uno {
@@ -203,14 +199,15 @@ footer {
     font-size: 20px;
 }
 
-.suscribirme span{
+.suscribirme span {
     background-color: #FFFFFF;
+    width: 500px;
+    color: #8f7474;
     height: 40px;
-    color: #3C2313;
     font-size: 9px;
     border-radius: 15px;
     padding: 12px;
-    margin: 20px;
+    margin: 100px;
 }
 
 button {
@@ -261,14 +258,4 @@ button {
     color: #FFFFFF;
 }
 
-
-
-
-
-
-
-
-.cajas:hover {
-    transform:scale (1.2)
-}
 

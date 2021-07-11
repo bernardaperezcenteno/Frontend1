@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contacto.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,21 +26,21 @@
 
     <main>
         <div class="container">
-            <h1>Login</h1>
+            <h1>Contacto</h1>
             <section>
             <form action="" method="POST">
-                <input type="email" name="usuario" placeholder="Usuario">
+                <input type="text" name="nombre" placeholder="Nombre y Apellido">
                 <br><br>
-                <input type="password" name="contraseña" placeholder="Contraseña" required>
+                <input type="email" name="email" placeholder="Correo Electronico" required>
+                <br><br>
+                <textarea name="descripcion" id="" cols="73" rows="10"></textarea>
             </section>  
+
             <section>
-                <button type="submit">Entrar</button>
+                <button class="resetear" type="reset">Resetear</button>
+                <button class="registrar" type="submit">Registrar</button>
             </section>
             </form>
-            <section class="registro">
-                <a href="">¿No tienes una cuenta?</a>
-                <a href="">Registrarme</a>
-            </section>
         </div>
     </main>
 
