@@ -153,8 +153,6 @@ button {
     letter-spacing: 0em;
     margin: 30px 120px;
 }
-
-
 /*footer*/
 
 footer{
@@ -180,4 +178,8 @@ input:disabled {
 }
 textarea:hover {
     background-color:mediumaquamarine;
+}
+
+button:hover {
+    width: 450px;
 }
