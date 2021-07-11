@@ -9,6 +9,10 @@
 }
 
 /*header*/
+
+header {
+    display: block;
+}
 .top {
     display: flex;
     justify-content: space-between;
@@ -261,14 +265,63 @@ button {
     color: #FFFFFF;
 }
 
+/* responsive */
+@media screen and (max-width: 480px){
+    .menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
 
+    .cajas {
+        display: block;
+    }
+    .petbowl {
+        background-image: url(../img/bowl.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 480px;
+    }
 
+    .titular {
+        color: #FFFFFF;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .descripcion {
+        margin-left: 70px;
+    }
+}
 
+@media screen and (min-width: 481px) and (max-width:768px) {
+    .menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .cajas {
+        display: block;
+    }
+    .petbowl {
+        background-image: url(../img/bowl.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 480px;
+    }
+    .footer-uno {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: center;
+    }
+    .titular {
+        color: #FFFFFF;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .descripcion {
+        margin-left: 1px;
+    }
 
-
-
-
-.cajas:hover {
-    transform:scale (1.2)
 }
 
