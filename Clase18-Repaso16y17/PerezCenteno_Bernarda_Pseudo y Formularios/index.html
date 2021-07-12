@@ -27,7 +27,7 @@
                 <img src="img/Logo (1).png" alt="logo">
             </div>
             <nav> 
-                <li>Categorias</li>
+                <img src="img/pawprint.png">Categorias
                 <img src="img/pawprint.png">Pets
                 <img src="img/pawprint.png">Nosotros
                 <img src="img/pawprint.png">Contactanos
@@ -69,16 +69,16 @@
                 </div>
             </section>
             <section class="formulario">
-                <h2>Contáctanos</h2>
-                <div class="datos">
-                    <p>Nombre y Apellido</p>
-                    <p>Ingresá tu correo electrónico</p>
-                    <p>Teléfono</p>
-                </div>
-                <div class="comandos">
-                    <p class="resetear">Resetear</p> 
-                    <p class="enviar">Enviar</p> 
-                </div>
+                <form action="" method="POST">
+                    <label class="contactanos" for="Contactanos">Contactanos</label>
+                    <input type="text" name="Nombre y Apellido" placeholder="Nombre y Apellido" id="Nombre">
+                    <input type="email" name="Ingresá tu correo electrónico" placeholder="Ingresá tu correo electrónico" id="Email">
+                    <input type="tel" name="Telefono" placeholder="Telefono" id="Telefono">
+                </form>
+            </section>
+            <section>
+                <button class="resetear" type="reset">Resetear</button>
+                <button type="submit">Enviar</button>
             </section>
         </div>
     </main>
@@ -91,7 +91,7 @@
         </div> 
         <div class="suscribirme">   
             <span>Ingresá tu correo electronico</span>
-            <button>Suscribirme</button>
+            <button class="suscribirme">Suscribirme</button>
         </div>
         </section>
         <section class="footer-dos">
