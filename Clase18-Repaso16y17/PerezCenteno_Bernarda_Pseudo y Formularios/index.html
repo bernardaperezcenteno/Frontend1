@@ -26,12 +26,13 @@
             <div>
                 <img src="img/Logo (1).png" alt="logo">
             </div>
-            <nav> 
-                <img src="img/pawprint.png">Categorias
-                <img src="img/pawprint.png">Pets
-                <img src="img/pawprint.png">Nosotros
-                <img src="img/pawprint.png">Contactanos
-            </nav>
+                <nav>
+                    <a>Categorias</a>
+                    <a>Pets</a>
+                    <a>Nosotros</a>
+                    <a>Contactanos</a>
+                </nav>
+            
         </section>
         <section class="petbowl">
             <div class="promociones">
@@ -76,9 +77,11 @@
                     <input type="tel" name="Telefono" placeholder="Telefono" id="Telefono">
                 </form>
             </section>
-            <section>
-                <button class="resetear" type="reset">Resetear</button>
-                <button type="submit">Enviar</button>
+            <section class="button">
+                <form action="" method="POST">
+                    <input class="resetear" type="reset" value="Resetear">
+                    <input class="enviar" type="submit" value="Enviar">
+                </form>
             </section>
         </div>
     </main>
@@ -88,10 +91,12 @@
         <div class="subscripcion">
             <img src="img/Group.png" alt="sobre">
             <p>Suscríbete para más novedades</p>
-        </div> 
-        <div class="suscribirme">   
-            <span>Ingresá tu correo electronico</span>
-            <button class="suscribirme">Suscribirme</button>
+        </div>
+        <div class="ingreso">
+            <form action="">
+                <input class="correo" type="email" placeholder="Ingresá tu correo electronico">
+                <input class="suscribirme" placeholder="Suscribirme">
+            </form>
         </div>
         </section>
         <section class="footer-dos">
